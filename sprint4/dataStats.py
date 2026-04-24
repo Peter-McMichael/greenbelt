@@ -90,16 +90,6 @@ def getCorrelation(items1, items2):
 
 
 
-
-
-
-
-        
-
-
-
-
-
    
 
 myList1 = makeList(10, [1, 10])
