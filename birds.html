@@ -1,0 +1,2473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bird Data for Web Scraping</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f2;
+            color: #1f2a1f;
+            margin: 0;
+            padding: 30px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        .subtitle {
+            color: #526152;
+        }
+
+        .bird-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 20px;
+        }
+
+        .bird-card {
+            background-color: white;
+            border: 1px solid #d5ddd0;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .bird-name {
+            color: #2f5d3a;
+            margin-top: 0;
+        }
+
+        .scientific-name {
+            font-style: italic;
+        }
+
+        .bird-section {
+            margin-top: 15px;
+        }
+
+        ul {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bird Data</h1>
+        <p class="subtitle">A simple bird dataset for web scraping practice</p>
+    </header>
+
+    <main class="bird-container">
+        
+        <article class="bird-card" data-bird-name="American Robin">
+            <h2 class="bird-name">American Robin</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Turdus migratorius</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Red</li>
+<li>Orange</li>
+<li>Brown</li>
+<li>Rufous</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Gray</li>
+<li>Black</li>
+<li>Brown</li>
+<li>N/A</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Oriole and Blue Jay</li>
+<li>Between Sparrow and Oriole</li>
+<li>Oriole</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Forests, gardens, and urban areas</p>
+                <p class="food"><strong>Food:</strong> Insects, worms, and berries</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests in trees or shrubs</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A common North American songbird with a distinctive red breast and cheerful song. They are often seen hopping across lawns searching for worms and insects, and their melodic singing marks the arrival of spring in many regions.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Dark-eyed Junco">
+            <h2 class="bird-name">Dark-eyed Junco</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Junco hyemalis</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Light Gray</li>
+<li>Light Brown</li>
+<li>Beige</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Black</li>
+<li>Gray</li>
+<li>Light Gray</li>
+<li>Dark Gray</li>
+<li>N/A</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+<li>Between Sparrow and Oriole</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Forests, woodlands, and suburban areas</p>
+                <p class="food"><strong>Food:</strong> Seeds and insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests on or near the ground</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small, sparrow-like bird with a soft, gray or brown body and a light underbelly. They are commonly seen in flocks during winter, hopping on the ground in search of seeds, and are known for their gentle, trilling songs.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Anna&#x27;s Hummingbird">
+            <h2 class="bird-name">Anna&#x27;s Hummingbird</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Calypte anna</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Green</li>
+<li>Light Gray</li>
+<li>Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Pink</li>
+<li>Red</li>
+<li>Purple</li>
+<li>Black</li>
+<li>N/A</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Gardens, parks, and open woodlands</p>
+                <p class="food"><strong>Food:</strong> Nectar, small insects, and spiders</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests on tree branches or shrubs</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A tiny, energetic hummingbird with iridescent green feathers and a bright red throat in males. They are highly territorial, often defending feeders and flowering plants, and can hover in mid-air while feeding on nectar or catching small insects for protein.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Great Blue Heron">
+            <h2 class="bird-name">Great Blue Heron</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Ardea herodias</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Blue</li>
+<li>Gray</li>
+<li>Light Gray</li>
+<li>Dark Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Light Gray</li>
+<li>Black</li>
+<li>Blue</li>
+<li>N/A</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Swan or bigger</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Wetlands, rivers, lakes, and coastal areas</p>
+                <p class="food"><strong>Food:</strong> Fish, amphibians, small mammals, and insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Large stick nests in trees or shrubs near water</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A large, majestic wading bird with long legs and a sharp bill. Often found near water bodies, they hunt silently, standing motionless before striking at fish or amphibians. Their slow, deliberate movements and striking blue-gray plumage make them easy to recognize.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Black-capped Chickadee">
+            <h2 class="bird-name">Black-capped Chickadee</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Poecile atricapillus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Gray</li>
+<li>Light Gray</li>
+<li>Dark Gray</li>
+<li>Beige</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Gray</li>
+<li>White</li>
+<li>Black</li>
+<li>Dark Gray</li>
+<li>Light Gray</li>
+<li>N/A</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Deciduous and mixed forests, parks, and suburban areas</p>
+                <p class="food"><strong>Food:</strong> Insects, seeds, and berries</p>
+                <p class="nesting"><strong>Nesting:</strong> Cavity nests in tree holes or nest boxes</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small, friendly bird with a distinctive black cap and bib. They are curious and bold, often visiting feeders in winter, and store food in hidden caches for later use. Their high-pitched chick-a-dee call is one of the most recognizable bird calls in North America.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="House Finch">
+            <h2 class="bird-name">House Finch</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Haemorhous mexicanus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Gray</li>
+<li>Dark Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Red</li>
+<li>Pink</li>
+<li>Purple</li>
+<li>N/A</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+<li>Between Sparrow and Oriole</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Urban areas, parks, gardens, and deserts</p>
+                <p class="food"><strong>Food:</strong> Seeds, fruits, and buds</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests in trees, shrubs, or building ledges</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small bird commonly found near human habitation, with males displaying red coloring on the head and chest. House Finches are social, often seen in flocks, and have a cheerful warbling song that varies regionally.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Mountain Bluebird">
+            <h2 class="bird-name">Mountain Bluebird</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Sialia currucoides</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Blue</li>
+<li>Gray</li>
+<li>Light Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Blue</li>
+<li>Gray</li>
+<li>Light Gray</li>
+<li>Orange</li>
+<li>Rufous</li>
+<li>N/A</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Sparrow</li>
+<li>Between Sparrow and Oriole</li>
+<li>Oriole</li>
+<li>Between Oriole and Blue Jay</li>
+<li>Blue Jay</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Open fields, meadows, and grasslands</p>
+                <p class="food"><strong>Food:</strong> Insects and berries</p>
+                <p class="nesting"><strong>Nesting:</strong> Cavity nests in tree hollows or nest boxes</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A bright blue bird often seen perched on fence posts or hovering above open meadows while hunting insects. Males are brilliantly colored, especially during breeding season, while females are more subdued, blending into their environment.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Osprey">
+            <h2 class="bird-name">Osprey</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Pandion haliaetus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>White</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Brown</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Blue Jay</li>
+<li>Between Blue Jay and Swan</li>
+<li>Swan or bigger</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Lakes, rivers, and coastal waters</p>
+                <p class="food"><strong>Food:</strong> Fish</p>
+                <p class="nesting"><strong>Nesting:</strong> Large stick nests on cliffs, trees, or man-made structures</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A large, fish-eating raptor with a distinctive dark eye stripe and white underparts. They are highly skilled hunters, diving feet-first into water to catch fish, and are often seen soaring high above lakes and rivers with slow, deliberate wingbeats.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Red-winged Blackbird">
+            <h2 class="bird-name">Red-winged Blackbird</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Agelaius phoeniceus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Black</li>
+<li>Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Red</li>
+<li>Yellow</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Oriole</li>
+<li>Between Oriole and Blue Jay</li>
+<li>Blue Jay</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Marshes, wetlands, and fields</p>
+                <p class="food"><strong>Food:</strong> Seeds and insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests in reeds or shrubs</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A medium-sized blackbird with striking red shoulder patches bordered by yellow. Males are highly territorial during breeding season, often seen singing from tall perches and defending their marshy territories against intruders.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Killdeer">
+            <h2 class="bird-name">Killdeer</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Charadrius vociferus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>White</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Black</li>
+<li>Brown</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Oriole</li>
+<li>Between Sparrow and Oriole</li>
+<li>Between Oriole and Blue Jay</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Open fields, grasslands, and shorelines</p>
+                <p class="food"><strong>Food:</strong> Insects, worms, and small invertebrates</p>
+                <p class="nesting"><strong>Nesting:</strong> Ground nests, often disguised with stones or debris</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A medium-sized plover with two black breast bands and a loud, high-pitched call. Killdeer are known for their &#x27;broken-wing&#x27; act to distract predators from their nests, and they thrive in open habitats such as fields, shores, and urban lawns.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Tufted Titmouse">
+            <h2 class="bird-name">Tufted Titmouse</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Baeolophus bicolor</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Gray</li>
+<li>White</li>
+<li>Light Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Black</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Deciduous woodlands, parks, suburban areas</p>
+                <p class="food"><strong>Food:</strong> Insects, seeds, nuts</p>
+                <p class="nesting"><strong>Nesting:</strong> Cavity nests in tree holes or nest boxes</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small, crested songbird with a soft gray back, white underparts and a small tufted crest. Bold and curious, it often visits feeders and forages in mixed-species flocks.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="White-breasted Nuthatch">
+            <h2 class="bird-name">White-breasted Nuthatch</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Sitta carolinensis</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Blue</li>
+<li>Gray</li>
+<li>White</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Black</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Woodlands, parks, suburban trees</p>
+                <p class="food"><strong>Food:</strong> Insects, seeds, nuts</p>
+                <p class="nesting"><strong>Nesting:</strong> Cavity nests; often modifies entrance with mud</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A compact, acrobatic bird often seen creeping head-first down tree trunks. White face and underparts with bluish gray upperparts and a black eye stripe.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Brown Creeper">
+            <h2 class="bird-name">Brown Creeper</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Certhia americana</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Light Brown</li>
+<li>Beige</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Gray</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Mature forests with large trees</p>
+                <p class="food"><strong>Food:</strong> Insects and spiders</p>
+                <p class="nesting"><strong>Nesting:</strong> Nests behind loose bark or in tree crevices</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A slender, brown-streaked bird that spirals up tree trunks searching for insects hidden in bark. Often well camouflaged and heard more than seen.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Carolina Wren">
+            <h2 class="bird-name">Carolina Wren</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Thryothorus ludovicianus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Sienna</li>
+<li>Light Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Black</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Thickets, gardens, brushy suburbs</p>
+                <p class="food"><strong>Food:</strong> Insects, spiders, some seeds</p>
+                <p class="nesting"><strong>Nesting:</strong> Cavities, crevices, nest boxes often near buildings</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A lively, loud-voiced wren with a bold white eyebrow stripe and rich cinnamon-brown plumage. Frequently found around homes and brushy edges singing clear, musical phrases.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Marsh Wren">
+            <h2 class="bird-name">Marsh Wren</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Cistothorus palustris</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Sienna</li>
+<li>Light Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Black</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Marshes and wetlands with tall reeds</p>
+                <p class="food"><strong>Food:</strong> Insects and spiders</p>
+                <p class="nesting"><strong>Nesting:</strong> Nested among reeds; domed nests attached to vegetation</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small, secretive wren with streaky brown plumage and a habit of darting through marsh vegetation while singing bubbly, insect-like songs.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Swainson&#x27;s Thrush">
+            <h2 class="bird-name">Swainson&#x27;s Thrush</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Catharus ustulatus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Light Brown</li>
+<li>Olive</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Woodlands, forest understory, riparian thickets</p>
+                <p class="food"><strong>Food:</strong> Insects, berries</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests in shrubs or low trees</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A medium-sized thrush with warm brown upperparts and pale spotted breast. Known for its ethereal, spiraling flute-like song heard during migration and breeding season.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Hermit Thrush">
+            <h2 class="bird-name">Hermit Thrush</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Catharus guttatus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Light Brown</li>
+<li>Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Forests, woodland edges, thickets</p>
+                <p class="food"><strong>Food:</strong> Insects, berries</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests on low branches</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A shy thrush with warm brown back and spotted breast; noted for its clear, flute-like song that echoes through quiet forest habitats.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Veery">
+            <h2 class="bird-name">Veery</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Catharus fuscescens</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Reddish</li>
+<li>Brown</li>
+<li>Sienna</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Moist deciduous forests and forest floor</p>
+                <p class="food"><strong>Food:</strong> Insects, berries</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests on or near ground in dense vegetation</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small, reddish-brown thrush with a gentle, descending flute song. Prefers damp forest floors and dense understory where it feeds on insects and fallen berries.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Gray Catbird">
+            <h2 class="bird-name">Gray Catbird</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Dumetella carolinensis</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Gray</li>
+<li>Dark Gray</li>
+<li>Black</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Shrublands, forest edges, yards</p>
+                <p class="food"><strong>Food:</strong> Insects, berries, fruits</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests in dense shrubs</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A plain gray songster with a black cap and expressive, cat-like calls alongside a varied repertoire of mimicry and whistles. Often found in thick brush and hedgerows.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="American Pipit">
+            <h2 class="bird-name">American Pipit</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Anthus rubescens</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Light Brown</li>
+<li>Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Open fields, tundra, mudflats, alpine slopes</p>
+                <p class="food"><strong>Food:</strong> Insects, seeds</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests on ground or low vegetation</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A slim, unobtrusive bird of open country that walks or runs while probing the ground for insects and seeds. Often forms loose flocks in migration and wintering grounds.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Song Sparrow">
+            <h2 class="bird-name">Song Sparrow</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Melospiza melodia</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Light Brown</li>
+<li>Sienna</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Gray</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Brushy fields, marsh edges, backyards</p>
+                <p class="food"><strong>Food:</strong> Seeds, insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests in shrubs or on ground</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A familiar streaky sparrow with a variable but melodious song. Often occupies shrubby edges and backyard habitats and is easy to spot near dense cover.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Savannah Sparrow">
+            <h2 class="bird-name">Savannah Sparrow</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Passerculus sandwichensis</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Beige</li>
+<li>Light Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Yellow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Open grasslands, marsh edges, fields</p>
+                <p class="food"><strong>Food:</strong> Seeds, insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests on or near ground in grass</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small, streaky sparrow of open grasslands and marshy edges with often a small yellow spot near the eye. It forages on the ground for seeds and insects.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Lincoln&#x27;s Sparrow">
+            <h2 class="bird-name">Lincoln&#x27;s Sparrow</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Melospiza lincolnii</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Sienna</li>
+<li>Light Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Wet meadows, shrubby edges, thickets</p>
+                <p class="food"><strong>Food:</strong> Seeds, insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests in low shrubs or grasses</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A secretive, finely streaked sparrow with a buffy, streaked throat and subtle face pattern. Often stays hidden in dense brush but sings a sweet, bubbling song.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Fox Sparrow">
+            <h2 class="bird-name">Fox Sparrow</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Passerella iliaca</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Reddish</li>
+<li>Sienna</li>
+<li>Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Brushy thickets, forest edges, gardens</p>
+                <p class="food"><strong>Food:</strong> Seeds, insects, berries</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests in shrubs or low branches</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A large, heavily streaked sparrow with warm reddish tones and a bold breast pattern. Forages on the ground and is often heard singing from low perches in spring.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Swamp Sparrow">
+            <h2 class="bird-name">Swamp Sparrow</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Melospiza georgiana</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Sienna</li>
+<li>Beige</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Gray</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Freshwater marshes and wetlands</p>
+                <p class="food"><strong>Food:</strong> Insects, seeds</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests low in marsh vegetation</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A compact marsh sparrow with subtle rufous tones and a short tail; its song is a musical jumble heard across wetlands where it hides in dense vegetation.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Ovenbird">
+            <h2 class="bird-name">Ovenbird</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Seiurus aurocapilla</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Olive</li>
+<li>Sienna</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Black</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Mature deciduous forests with leaf litter</p>
+                <p class="food"><strong>Food:</strong> Insects and spiders</p>
+                <p class="nesting"><strong>Nesting:</strong> Ground nests domed with a side entrance (oven-like)</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A ground-foraging warbler with heavily spotted breast and an iconic loud &#x27;teacher-teacher&#x27; song. Named for its domed, oven-like nest built on the forest floor.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Black-and-white Warbler">
+            <h2 class="bird-name">Black-and-white Warbler</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Mniotilta varia</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Black</li>
+<li>White</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Gray</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Woodland trunks and branches, forests</p>
+                <p class="food"><strong>Food:</strong> Insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests on tree branches</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A distinctive warbler that creeps along trunks and branches like a nuthatch, with bold black-and-white streaks and a habit of foraging in bark crevices for insects.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Common Yellowthroat">
+            <h2 class="bird-name">Common Yellowthroat</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Geothlypis trichas</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Yellow</li>
+<li>Olive</li>
+<li>Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Black</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Wetlands, marshes, dense low vegetation</p>
+                <p class="food"><strong>Food:</strong> Insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests concealed in low vegetation</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small, skulking warbler with bright yellow throat and a black mask in males. Often heard more than seen as it flits through dense marsh vegetation.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Yellow Warbler">
+            <h2 class="bird-name">Yellow Warbler</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Setophaga petechia</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Yellow</li>
+<li>Olive</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Red</li>
+<li>Brown</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Shrubs, riparian areas, open woodlands</p>
+                <p class="food"><strong>Food:</strong> Insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests in shrubs or tree forks</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A cheerful small warbler with bright yellow plumage and rusty streaks on the breast during breeding. Frequently found near water and shrubs where it gleans insects.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Prothonotary Warbler">
+            <h2 class="bird-name">Prothonotary Warbler</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Protonotaria citrea</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Yellow</li>
+<li>Olive</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Gray</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Flooded forests, swamps, wooded wetlands</p>
+                <p class="food"><strong>Food:</strong> Insects, aquatic invertebrates</p>
+                <p class="nesting"><strong>Nesting:</strong> Cavity nests in flooded trees or nest boxes</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Near Threatened</p>
+            </section>
+
+            <p class="description">A striking golden-yellow warbler of flooded woodlands, notable for nesting in cavities near water and its bright plumage and ringing song.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Baltimore Oriole">
+            <h2 class="bird-name">Baltimore Oriole</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Icterus galbula</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Orange</li>
+<li>Black</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Yellow</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Sparrow and Oriole</li>
+<li>Oriole</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Open woodlands, river edges, parks</p>
+                <p class="food"><strong>Food:</strong> Nectar, fruit, insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Hanging, woven pouch nests suspended from branches</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A flash of orange and black in treetops during summer, the Baltimore Oriole is a bold, musical songster attracted to fruit and nectar feeders and notable for its hanging woven nests.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Orchard Oriole">
+            <h2 class="bird-name">Orchard Oriole</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Icterus spurius</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Chestnut</li>
+<li>Black</li>
+<li>Orange</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Sparrow and Oriole</li>
+<li>Oriole</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Open woodlands, orchards, shade trees</p>
+                <p class="food"><strong>Food:</strong> Insects, fruit, nectar</p>
+                <p class="nesting"><strong>Nesting:</strong> Pendant woven nests in trees</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A smaller oriole with a rich chestnut or orange wash on males and a delicate, musical song. Common in orchards and open wooded areas in summer.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Rose-breasted Grosbeak">
+            <h2 class="bird-name">Rose-breasted Grosbeak</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Pheucticus ludovicianus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Black</li>
+<li>White</li>
+<li>Red</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Brown</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Sparrow and Oriole</li>
+<li>Oriole</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Deciduous woods, woodland edges, gardens</p>
+                <p class="food"><strong>Food:</strong> Seeds, fruit, insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup-shaped nests in trees</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A robust songbird with striking black and white plumage and a deep rose red breast patch in males. Known for a rich, melodious song and visits to fruiting trees and feeders.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Indigo Bunting">
+            <h2 class="bird-name">Indigo Bunting</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Passerina cyanea</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Blue</li>
+<li>Light Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Brown</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Weedy fields, shrub edges, open woods</p>
+                <p class="food"><strong>Food:</strong> Seeds, insects, berries</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests in shrubs or low trees</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A brilliant blue songbird in summer males, indigo buntings sing from exposed perches and feed on seeds and insects in weedy fields and edges.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Lazuli Bunting">
+            <h2 class="bird-name">Lazuli Bunting</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Passerina amoena</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Blue</li>
+<li>Orange</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Gray</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Scrub, brushy hillsides, riparian edges</p>
+                <p class="food"><strong>Food:</strong> Seeds, insects, berries</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests in shrubs or low trees</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A colorful western bunting with bright blue upperparts and warm orange flanks in males. Often found along brushy streams and edges.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Pine Siskin">
+            <h2 class="bird-name">Pine Siskin</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Spinus pinus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Dark Gray</li>
+<li>Light Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Yellow</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Coniferous forests, feeders in winter</p>
+                <p class="food"><strong>Food:</strong> Seeds (especially conifer seeds)</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests in conifers</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A streaky finch with subtle yellow wing and tail highlights, often irrupting to feeders in winter and feeding heavily on conifer seeds.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Evening Grosbeak">
+            <h2 class="bird-name">Evening Grosbeak</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Coccothraustes vespertinus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Yellow</li>
+<li>Black</li>
+<li>Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Sparrow and Oriole</li>
+<li>Oriole</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Coniferous and mixed woodlands</p>
+                <p class="food"><strong>Food:</strong> Seeds, buds, fruits, insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests in trees</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A chunky, dramatic finch with bold yellow and black plumage in males and a thick bill used for cracking seeds. Often visits feeders in winter irruptions.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Steller&#x27;s Jay">
+            <h2 class="bird-name">Steller&#x27;s Jay</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Cyanocitta stelleri</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Blue</li>
+<li>Black</li>
+<li>Dark Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Oriole and Blue Jay</li>
+<li>Blue Jay</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Coniferous forests, mountain woodlands, parks</p>
+                <p class="food"><strong>Food:</strong> Nuts, seeds, insects, small vertebrates</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests in conifers</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A bold, crested jay of western forests with deep blue body and a black head crest. Known for opportunistic feeding and loud, raucous calls.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Red-headed Woodpecker">
+            <h2 class="bird-name">Red-headed Woodpecker</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Melanerpes erythrocephalus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Red</li>
+<li>Black</li>
+<li>White</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Gray</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Sparrow and Oriole</li>
+<li>Oriole</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Open woodlands, orchards, parks</p>
+                <p class="food"><strong>Food:</strong> Insects, fruit, seeds, occasionally small vertebrates</p>
+                <p class="nesting"><strong>Nesting:</strong> Excavated cavities in dead trees</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Near Threatened</p>
+            </section>
+
+            <p class="description">A striking woodpecker with a completely red head, glossy black back and white belly and wing patches. It stores food and is an energetic forager on trunks and branches.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="American Redstart">
+            <h2 class="bird-name">American Redstart</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Setophaga ruticilla</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Black</li>
+<li>Orange</li>
+<li>Yellow</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Gray</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Chickadee or smaller</li>
+<li>Between Chickadee and Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Deciduous forests, edges, shrubby areas</p>
+                <p class="food"><strong>Food:</strong> Insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests in trees or shrubs</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A flashy warbler whose males flash orange or yellow patches while flitting through foliage catching insects. Often conspicuous despite its small size because of its energetic behavior.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Yellow-headed Blackbird">
+            <h2 class="bird-name">Yellow-headed Blackbird</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Xanthocephalus xanthocephalus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Black</li>
+<li>Yellow</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Sparrow and Oriole</li>
+<li>Oriole</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Freshwater marshes, wetlands</p>
+                <p class="food"><strong>Food:</strong> Insects, seeds</p>
+                <p class="nesting"><strong>Nesting:</strong> Colonial nests among reeds</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A marsh-loving blackbird with bright yellow head and chest in males; often seen in large breeding colonies in wetlands and singing from reed tops.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Lark Sparrow">
+            <h2 class="bird-name">Lark Sparrow</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Chondestes grammacus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Beige</li>
+<li>Sienna</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Black</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Open fields, prairies, roadsides</p>
+                <p class="food"><strong>Food:</strong> Seeds, insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Ground nests hidden in grass or low vegetation</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A distinctive sparrow with bold facial patterns and a spotted breast, often singing from low perches in open country and preferring bare ground for foraging.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Vesper Sparrow">
+            <h2 class="bird-name">Vesper Sparrow</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Pooecetes gramineus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Beige</li>
+<li>Light Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Gray</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Open fields, grasslands, edges</p>
+                <p class="food"><strong>Food:</strong> Seeds, insects</p>
+                <p class="nesting"><strong>Nesting:</strong> Cup nests on ground concealed by vegetation</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A nondescript but sweet-sounding sparrow of open habitats, often singing a clear, musical song from a low perch at dusk and dawn.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Sora">
+            <h2 class="bird-name">Sora</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Porzana carolina</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Gray</li>
+<li>Beige</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Black</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Freshwater marshes and wetlands</p>
+                <p class="food"><strong>Food:</strong> Seeds, aquatic invertebrates</p>
+                <p class="nesting"><strong>Nesting:</strong> Hidden nests among marsh vegetation near water</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small, secretive rail with a short bill and distinctive nasal call, frequently heard but often hidden in dense marsh vegetation as it forages for seeds and invertebrates.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Virginia Rail">
+            <h2 class="bird-name">Virginia Rail</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Rallus limicola</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Reddish</li>
+<li>Brown</li>
+<li>Sienna</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Gray</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Freshwater marshes with dense emergent vegetation</p>
+                <p class="food"><strong>Food:</strong> Insects, crustaceans, seeds</p>
+                <p class="nesting"><strong>Nesting:</strong> Hidden nests among marsh vegetation</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A slim, laterally compressed rail that slips through marsh stems with a soft clucking call. Often elusive but detectable by its distinctive vocalizations in wetlands.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Common Yellowlegs">
+            <h2 class="bird-name">Common Yellowlegs</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Tringa flavipes</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Gray</li>
+<li>Brown</li>
+<li>Light Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Yellow</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Sparrow and Oriole</li>
+<li>Oriole</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Shorelines, marshes, mudflats</p>
+                <p class="food"><strong>Food:</strong> Small invertebrates, crustaceans</p>
+                <p class="nesting"><strong>Nesting:</strong> On ground in tundra or wet meadows</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A long-legged shorebird with fine streaking and yellow legs, probing mudflats and shallow water for invertebrates during migration and winter.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Greater Yellowlegs">
+            <h2 class="bird-name">Greater Yellowlegs</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Tringa melanoleuca</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Gray</li>
+<li>Brown</li>
+<li>Light Brown</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Yellow</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Oriole and Blue Jay</li>
+<li>Blue Jay</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Shorelines, mudflats, marshes</p>
+                <p class="food"><strong>Food:</strong> Small fish, invertebrates, crustaceans</p>
+                <p class="nesting"><strong>Nesting:</strong> On ground in tundra or wet meadows</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A larger yellow-legged shorebird with a loud, ringing call, often wading energetically while searching for invertebrates along mudflats and shallow waters.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Dunlin">
+            <h2 class="bird-name">Dunlin</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Calidris alpina</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Sienna</li>
+<li>Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>Black</li>
+<li>White</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Coastal mudflats, estuaries, shorelines</p>
+                <p class="food"><strong>Food:</strong> Small invertebrates, crustaceans</p>
+                <p class="nesting"><strong>Nesting:</strong> Ground nests in tundra or arctic breeding grounds</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small sandpiper with a slightly downcurved bill; breeding plumage shows rufous and black patterning. Forms tight flocks on mudflats and probes with a busy feeding action.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Semipalmated Plover">
+            <h2 class="bird-name">Semipalmated Plover</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Charadrius semipalmatus</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Beige</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Black</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Between Chickadee and Sparrow</li>
+<li>Sparrow</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Canada</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Sandy beaches, mudflats, shorelines</p>
+                <p class="food"><strong>Food:</strong> Invertebrates, crustaceans</p>
+                <p class="nesting"><strong>Nesting:</strong> Shallow scrape on open ground</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A small plover with a single black breast band and short bill; forages energetically along sandy beaches and mudflats pecking small invertebrates.</p>
+        </article>
+
+        <article class="bird-card" data-bird-name="Brown Pelican">
+            <h2 class="bird-name">Brown Pelican</h2>
+            <p class="scientific-name"><strong>Scientific Name:</strong> Pelecanus occidentalis</p>
+
+            <section class="bird-section">
+                <h3>Colors</h3>
+                <p><strong>Main Colors:</strong></p>
+                <ul class="color1-list">
+<li>Brown</li>
+<li>Gray</li>
+</ul>
+
+                <p><strong>Other Colors:</strong></p>
+                <ul class="color2-list">
+<li>White</li>
+<li>Yellow</li>
+<li>Beige</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Size</h3>
+                <ul class="size-list">
+<li>Swan or bigger</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Location</h3>
+                <ul class="location-list">
+<li>United States</li>
+<li>Mexico</li>
+</ul>
+            </section>
+
+            <section class="bird-section">
+                <h3>Details</h3>
+                <p class="habitat"><strong>Habitat:</strong> Coastal waters, estuaries, beaches</p>
+                <p class="food"><strong>Food:</strong> Fish</p>
+                <p class="nesting"><strong>Nesting:</strong> Ground or shrub nests on coastal islands</p>
+                <p class="conservation-status"><strong>Conservation Status:</strong> Least Concern</p>
+            </section>
+
+            <p class="description">A coastal icon known for plunge-diving to catch fish, with a heavy bill and pouch and a brownish body often seen loafing on pilings and beaches.</p>
+        </article>
+
+    </main>
+</body>
+</html>
