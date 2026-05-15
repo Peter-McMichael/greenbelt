@@ -1,0 +1,8 @@
+Compare mortality rates of hanta, andes hanta, and covid. 
+
+Compare death count of covid to hanta per year
+
+Covid hospitalizations compared to deaths
+bar chart for hanta deaths per year
+
+EDA should include # of years, # of viruses compared, 
