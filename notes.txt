@@ -1,8 +1,12 @@
-Compare mortality rates of hanta, andes hanta, and covid. 
+DONE: Compare mortality rates of hanta, andes hanta, and covid. 
 
 Compare death count of covid to hanta per year
 
+Correlation of deaths to contraction rate to find how deadly a virus actually is.
+
 Covid hospitalizations compared to deaths
 bar chart for hanta deaths per year
+
+Compare deadlest diseases with origin of diesea.
 
 EDA should include # of years, # of viruses compared, 
