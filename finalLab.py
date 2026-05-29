@@ -182,7 +182,7 @@ def EDASummary():
     print(f"Average Hanta deaths per year: {genMean(hantaDeaths):.2f}") #hantaDeaths is list, gen mean of list
     print(f"Average Hanta fatality rate: {genMean(hantaFatalityRate):.2f}%")
     print(f"Average Andes Hanta fatality rate: {andesFatalityRates}%")
-    print(f"Average COVID fatality rate: {covidFatalityRates}")
+    print(f"Average COVID fatality rate: {covidFatalityRates}%")
     print(f"Average COVID deaths per year: {genMean(covidDeaths):.2f}")
     print(f"Average COVID hospitaliations per year: {genMean(covidHospital):.2f}")
 
