@@ -16,6 +16,7 @@ class Dog:
         self.fur_color = fur_color
         self.mood = mood
         self.has_owner = has_owner
+
     @property
     def size(self):
         return self._size
