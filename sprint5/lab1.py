@@ -12,6 +12,8 @@ class VideoGameCharacter:
         self.skills = skills
         self.item_capacity = item_capacity
         self.position = position
+    def attack(self):
+        print(f"{self.name} attacks!")
 
     @property #getter method
     def name(self):
@@ -98,17 +100,51 @@ class VideoGameCharacter:
         print(f"Position: {self.position}")
 
 
+class Warrior(VideoGameCharacter):
+    def move(self):
+        print(f"{self.name} runs swiftly.")
+    def attack(self):
+        super().attack()
+        print(f"{self.name} swings their sword!")
+
+class Wizard(VideoGameCharacter):
+    def move(self):
+        print(f"{self.name} clones and is now in multiple locations.")
+    def attack(self):
+        super().attack()
+        print(f"{self.name} casts a spell!")
+
 steve = VideoGameCharacter("Steve", 67, 67, ["luck", "regeneration", "cunning"], 5, (67, 67, 67))
-steve.health=10
+# steve.health=10
 # steve.position = (10, 5) # should error
 steve.describeCharacter()
 
-try:
-    print(steve.__health)
-except AttributeError as error:
-    print(f"Error: {error}")
+bobby = Warrior("Bobby", 10, 100, None, 10, (10, 10, 10))
 
-            
+robert = Wizard("Robert", 100, 1000, None, 10, (0, 0, 0))
+
+bobby.describeCharacter()
+robert.describeCharacter()
+# bobby.move()
+# robert.move()
+# bobby.attack()
+# robert.attack()
+
+characters = [steve, bobby, robert]
+
+def groupAttack(chars):
+    for i in characters:
+        i.attack()
+groupAttack(characters)
+    
+
+
+# try:
+#     print(steve.__health)
+# except AttributeError as error:
+#     print(f"Error: {error}")
+
+    
 
 
 
