@@ -2,50 +2,53 @@
 verified_skills = ["dodge", "speed", "strength", "parry", "intelligence", "magic", "regeneration", "accuracy", "dexterity", "cunning", "swift", "percission", "luck", "stealthy"] 
 
 class VideoGameCharacter:
-    def __init__ (self, name = "Player", level = 1, health = 100, skills = ["speed", "strength"], item_capacity = 10, position = (0, 0, 0)):
+    def __init__ (self, name = "Player", level = 1, health = 100, skills = None, item_capacity = 10, position = (0, 0, 0)):
+        if skills is None:
+            skills = ["speed", "strength"]
+        
         self.name = name
-        self.level = level
-        self.health = health
+        self.__level = level
+        self.__health = health
         self.skills = skills
         self.item_capacity = item_capacity
         self.position = position
 
-    @property
+    @property #getter method
     def name(self):
         return self._name
     
     @name.setter
     def name(self, new_name):
-        if len(new_name) > 20 or len(new_name) < 1:
-                raise ValueError("Name must be between 1 and 20 characters.")
         if type(new_name) != str:
             raise ValueError("Name must be a string.")
+        if len(new_name) > 20 or len(new_name) < 1:
+            raise ValueError("Name must be between 1 and 20 characters.")
         self._name = new_name
         
     @property
     def level(self):
-        return self._level
+        return self.__level
     @level.setter
     def level(self, new_level):
         if type(new_level) != int:
             raise ValueError("The level must be an integer.")
         if new_level < 1:
             raise ValueError("The level must be greater than zero.")
-        self._level = new_level
+        self.__level = new_level
         
     @property 
     def health(self):
-        return self._health
+        return self.__health
     @health.setter
     def health(self, new_health):
         if type(new_health) != int:
             raise ValueError("Health must be an integer.")
         if new_health < 0 or new_health > 100:
             raise ValueError("Health must be between 0 and 100.")
-        self._health = new_health
+        self.__health = new_health
     @property
     def skills(self):
-        return self._skills
+        return self._skills.copy()
     @skills.setter
     def skills(self, new_skills):
         if type(new_skills) != list:
@@ -97,8 +100,13 @@ class VideoGameCharacter:
 
 steve = VideoGameCharacter("Steve", 67, 67, ["luck", "regeneration", "cunning"], 5, (67, 67, 67))
 steve.health=10
-steve.position = (10, 5)
+# steve.position = (10, 5) # should error
 steve.describeCharacter()
+
+try:
+    print(steve.__health)
+except AttributeError as error:
+    print(f"Error: {error}")
 
             
 
